@@ -1,0 +1,35 @@
+@tab-border-color: #2196f3;
+@tab-border-width: 2px;
+
+.button-group {
+  display: inline-flex;
+
+  button:first-child {
+    border-radius: 5px 0px 0px 5px;
+    border-left-width: 2px;
+  }
+  button:last-child {
+    border-radius: 0px 5px 5px 0px;
+    border-right-width: 2px;
+  }
+
+  button:focus {
+    background-color: #2196f3;
+  }
+  button:hover {
+    background-color: rgb(164, 185, 230);
+  }
+  button {
+    background-color: white;
+    border: 0px solid #2196f3;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    height: 45px;
+    min-width: 100px;
+    padding: 0px;
+    outline: none;
+    font-family: 'muru';
+  }
+}
